@@ -128,7 +128,7 @@ void game()
 	// DisplayBoard(mine, ROW, COL);
 
 	 SetMine(mine, ROW, COL);//布置雷
-	//isplayBoard(mine, ROW, COL);
+	//isplayBoard(mine, ROW, COL);新的
 
 	 FindMine(mine,show, ROW, COL);
 
