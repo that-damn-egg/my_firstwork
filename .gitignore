@@ -7,3 +7,6 @@ build/
 # 系统文件
 Thumbs.db
 .DS_Store
+
+# 嵌套生成的 VS Code 配置（打开 .vscode 子目录时自动产生）
+.vscode/.vscode/
