@@ -126,7 +126,7 @@ void FindMine(char mine[ROWS][COLS], char show[ROWS][COLS], int r, int c)
 			{
 				if (mine[x][y] == '1')
 				{
-					printf("die\n");
+					printf("你被雷炸飞了\n");
 					DisplayBoard(mine, r, c);
 					DisplayBoard(show, r, c);
 					break;
@@ -179,9 +179,6 @@ int main()
 {
 	
 	int imput = 0;
-	int ret = 0;
-	int ch = 0;
-
 	srand((unsigned int)time(NULL));
 	do
 	{
@@ -201,6 +198,5 @@ int main()
 			break;
 		}
 	} while (imput);
-    DisplayBoard(mine, ROW, COL);
 	return 0;
 }
